@@ -1,6 +1,7 @@
 def merge_reg_playoffs(year):
     """***This hard-coded***, and should only be ran after running get_player_stats(), and clean_season().
     A function to merge a year's regular season and playoff stats into one .csv file.
+    Be sure to check that folder names match the lists at line #23 and update according to what was chosen to scrape originally. 
 
     Params:
     year- The year of stats to merge.
